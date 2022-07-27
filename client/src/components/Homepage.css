@@ -1,0 +1,36 @@
+.Homepage {
+    display: flex;
+    height: 100vh;
+    margin: 0px 10px;
+}
+.Homepage>* {
+    width: 50%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: rgb(115, 214, 148);
+}
+button.btn {
+    width: 116px;
+    height: 45px;
+    
+    color:  rgb(115, 214, 148);
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 2px solid rgb(115, 214, 148);
+    border-radius: 5px;
+}
+button.btn:hover{
+    background-color: white;
+    color: rgb(115, 214, 148);
+    border: 2px solid rgb(115, 214, 148);
+}

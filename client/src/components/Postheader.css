@@ -1,0 +1,34 @@
+.PostHeader>* {
+    width: 50%;
+}
+.PostHeader {
+    display: flex;
+    width: 100%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+p.namelocation {
+    height: 10px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: large;
+}
+.location{
+    height: 10px;
+    margin: 5px;
+    color: grey;
+    font-weight: 400;
+}
+.dot {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-weight: 900;
+} 
