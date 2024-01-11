@@ -17,7 +17,7 @@ const Addpost = () => {
     const handleUserAdd = () => {
         console.log(addPostState);
         axios({
-            url: "https://instaclone-backend-proj.herokuapp.com/addpost",
+            url: "https://instaclone-backend-proj-s8vz.onrender.com/addpost",
             method: "POST",
             headers: {
                 "content-type": "multipart/form-data"

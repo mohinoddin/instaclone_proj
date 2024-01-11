@@ -10,7 +10,7 @@ export default function PostFooter({ details }) {
   const handleLikeCount = (id) => {
     // likecount=likecount+1
     // setLikeCount(likecount)
-    fetch("https://instaclone-backend-proj.herokuapp.com/like", {
+    fetch("https://instaclone-backend-proj-s8vz.onrender.com/like", {
       method: "PUT",
       headers: {
         "content-type": "application/json"

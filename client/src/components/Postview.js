@@ -8,7 +8,7 @@ export default function PostView() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("https://instaclone-backend-proj.herokuapp.com/posts"); /////fetching data through server
+      const response = await fetch("https://instaclone-backend-proj-s8vz.onrender.com/posts"); /////fetching data through server
       console.log(response)
       const data = await response.json(); /////converting fetched data to json file extention
       setPosts(data);
